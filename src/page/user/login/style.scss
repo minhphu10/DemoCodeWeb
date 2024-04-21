@@ -1,0 +1,106 @@
+@use "sass:map";
+@import "style/page/all";
+.google_button{
+    margin-top: 2vh;
+    background-color: #D1E9FF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    gap: 45px;
+    transition: background-color 0.3s ease;
+    align-items: center;
+    justify-items: center;
+}
+.google_logo{
+    margin-left: 5vw;
+}
+.account_text{
+    font-size: 14px;
+    color: #555;
+}
+.login_link{
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: color 0.3s ease;
+    &:hover{
+        color: #0056b3;
+    }
+
+}
+.input:focus{
+    border: 2px solid #D1E9FF;
+}
+.form_group{
+    margin-bottom: 4vh;
+}
+.Create_account_button{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgb(0, 0, 0,0.1);
+    transition: background-color 0.3s ease;
+    &:hover{
+        background-color: #0056b3;
+    }
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    h3{
+        font-size: 25px;
+    }
+}
+.label{
+    display: column;
+    display: flex;
+    color: black;
+    font-size: 15px;
+}
+.input{
+    height: 6vh;
+    width: 30vw;
+    transition: border-color 0.3s ease;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 1vh;
+}
+.login_page{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: AUTO;
+    flex-direction: row;
+}
+.left{
+    background-color:lightyellow;
+    width: 50vw;
+    height: 100vh;
+    h3{
+        text-align: start;
+        color: black;
+        margin-left: 2vw;
+        font-size: 50px;
+        font-family: cursive;
+    }
+    h4{
+        margin-top: 55vh;
+        margin-left: 2vw;
+        text-align: start;
+        color: black;
+        font-style: italic;
+        font-size: 45px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
